@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prof Hacks</string>
+    <string name="title_activity_sample">Main Activity</string>
+
+    <string name="wait_write_dialog_title">Write on NFC Tag</string>
+    <string name="wait_write_dialog_text">Approach an NFC tag</string>
+    <string name="tag_written_toast">Tag written</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_successful">Scan Successful</string>
+    <string name="approach_nfc">Approach the NFC tag to read</string>
+    <string name="owl_icon">Owl icon</string>
+    <string name="write_nfc_description">Only write to the tag if it isn\'t formatted and is unable to be read</string>
+    <string name="write">write</string>
+    <string name="save_password">Save Password</string>
+    <string name="check_queue_count">Check Queue Count</string>
+    <string name="confirmation_checkmark">Confirmation Checkmark</string>
+    <string name="tag_scanned">Tag Scanned</string>
+    <string name="password_description">The API key for the server. You shouldn\'t need to change this. Only enter a value if the server was changed</string>
+    <string name="error_already_registered">Error: Already registered</string>
+    <string-array name="locations_array">
+        <item>Registration</item>
+        <item>Opening Ceremony</item>
+        <item>Team Building Session</item>
+        <item>Journalism Session</item>
+        <item>CloudMine Session</item>
+        <item>Dinner</item>
+        <item>Midnight Snack</item>
+        <item>Game Tournament</item>
+        <item>Late-Night Snack</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+    </string-array>
+</resources>

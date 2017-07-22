@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+    <ImageView
+        android:src="@drawable/checkmark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000000d"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/confirmation_checkmark" />
+
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_scanned"
+        android:textSize="40sp"
+        android:textColor="@color/rowan_brown"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+</LinearLayout>
